@@ -1,0 +1,11 @@
+<html> 
+<head> 
+<title>Server Overload</title> 
+</head> 
+<body>   
+   <script type="text/javascript">   
+      for (var i=0;i<300000;i++)  { 
+        document.write("Script running " + i);   }  
+   </script> 
+</body> 
+</html>
